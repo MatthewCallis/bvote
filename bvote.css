@@ -1,0 +1,60 @@
+.bvote-container {
+  font-family: "Lato", "Calibri", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  clear: both;
+  display: block;
+  height: 50px;
+  width: 50px;
+  background: #f3f5f4;
+  background: linear-gradient(#f3f5f4, #ececec);
+  background: -moz-linear-gradient(#f3f5f4, #ececec);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f3f5f4), color-stop(100%, #ececec));
+  background: -webkit-linear-gradient(#f3f5f4, #ececec);
+  background: -o-linear-gradient(#f3f5f4, #ececec);
+  background: -ms-linear-gradient(#f3f5f4, #ececec);
+  border: 1px solid #dbdbdb;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px #AAA;
+  -moz-box-shadow: 0 1px 1px #AAA;
+  box-shadow: 0 1px 1px #AAA;
+}
+.bvote-value {
+  font-size: 24px;
+  line-height: 26px;
+}
+.bvote-actions {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+}
+.bvote-actions li {
+  background: none repeat scroll 0 0 transparent;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  list-style: none;
+}
+.bvote-actions li a.bvote-up,
+.bvote-actions li a.bvote-down {
+  background: none no-repeat scroll 2px 50% transparent;
+  height: 24px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0 0 0 15px;
+  text-decoration:none;
+}
+.bvote-actions li a.bvote-up:hover,
+.bvote-actions li a.bvote-down:hover {
+  text-decoration:underline;
+}
+.bvote-actions li a.bvote-up {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAoUlEQVQYV32RwQoCMQxEp7X7C94FUfTnhAXFgzf9U0/ePHhzTUzblG1acSAUmjeT0IKZ0db+wPzr3qPRbgRPA7A+gduei46irYC0AD5S6ZSo+xWugzeSFJsJkjaFDJPU45INCY4jU5rXVK9gmI3PI5xbnZnLyO4sZp1mdl7eZGdfGaRe47xzQKUpVKMVrmXhwYL0Fw52hfahDfzWNOq+KusL8bpxT3RZZuYAAAAASUVORK5CYII=);
+}
+.bvote-actions li a.bvote-down {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAMAAACecocUAAAAJFBMVEWjo6Oenp6ZmZmurq65ubm+vr6pqamTk5Ozs7OOjo6IiIj///+46x3lAAAADHRSTlP//////////////wAS387OAAAAM0lEQVQIHU3BiQmAQAADsPp7Zv99tYhgEmyFYC0EZyFYCsFeyJ/pI8wvgqMQjzGGR9Slbt5aA3bKZMdlAAAAAElFTkSuQmCC);
+}

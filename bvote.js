@@ -3,7 +3,7 @@ function bvote(postid, value){
   if(isNaN(postid) || isNaN(value) || bvote_can_vote !== 1){
     return;
   }
-  if(document.cookie.indexOf('bvote_' + postid) >= 0){
+  if(document.cookie.indexOf('bvote_' + postid + '=') >= 0){
     return;
   }
   bvote_can_vote = 0;
